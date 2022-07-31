@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+	char a, b;
+    cin >>a>>b;
+    if(a=="G" || b=="G"){
+        cout << "G";
+    }
+    else if(a=='B'||b=='B'){
+        cout << "B";
+    }
+    else{
+        cout << "R";
+    }
+    return 0;
+}
